@@ -1,0 +1,90 @@
+::placeholder{
+}
+
+div.wp-block-quotation-manager-form form{
+  background: white repeat url('bg.png');
+}
+.container{
+  padding-left: 2em;
+}
+  /* Create a custom checkbox */
+  .checkmark {
+    border: 1px solid #ffffff;
+  }
+  
+.container input ~.checkmark{
+  background: white;
+}
+
+input[type=checkbox]{
+  display: none;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  display: block;
+  background-color: #ffffff;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  border: solid #202020;
+  border-width: 0 2px 2px 0;
+}
+
+  /* Create a custom checkbox */
+  span.checkmark {
+    position: absolute;
+    top: 0.2em;
+    left: 0;
+    height: 1.25em;
+    width: 1.25em;
+    opacity: 1;
+  }
+
+:focus{
+  outline: 1px solid #ffffff;
+}
+
+input[type="radio"]:checked {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #202020;
+  border: 1px solid white;
+}  
+.wp-block-quotation-manager-form form{
+  border: 1px dashed #a0a0a0;
+  padding: 1rem;
+}
+
+label{
+  position: relative;
+  top: -1px;
+}
+span.title{
+  padding: 0.25rem 1rem;
+  margin-left: 0.5rem;
+  background: #ffffff url('bg.png');
+  color: #202020;
+  border-top: 1px solid #a0a0a0;
+  border-left: 1px solid #a0a0a0;
+  border-right: 1px solid #a0a0a0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  letter-spacing: 0.05rem;
+}
+
+.wp-block-quotation-manager-form input[type=submit]{
+  background-color: #ffffff;
+  color:#202020;
+  border: 1px solid white;
+  text-decoration: underline;
+  text-underline-position: under;
+  outline: white;
+}

@@ -1,0 +1,252 @@
+
+.wp-block-quotation-manager-form.industrial form,
+.wp-block-quotation-manager-form.industrial span.title{
+    background: white repeat url('bg.png');
+}
+
+input[type=range]{
+    appearance: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #b2b2b2;
+}
+input[type=range]::-webkit-slider-thumb{
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    margin: -8px 0  0;
+    border-radius: 50%;
+    background: #37adbf;
+    cursor: pointer;
+    border: 0 !important;
+}
+input[type=range]:focus {
+    background: none;
+    outline: none;
+}
+
+fieldset[name=row]{
+    border:none;
+    padding: 0;
+}
+
+.qmAddNewRowBtn, 
+.qmRemoveRowBtn{
+    padding: 0 0.25rem;
+    cursor: pointer;
+}
+.wp-block-quotation-manager-radiobutton .horizontal{
+    display: inline-block;
+}
+.wp-block-quotation-manager-radiobutton .horizontal:not(:first-child){
+    margin-left: 0.5rem;
+}
+
+.qmAddNewRowBtn{
+    height:1.8em;
+    /*position: relative;
+    right: calc( -100% + 1rem);*/
+}
+.qmRemoveRowBtn{
+    position: relative;
+    right: 2em;
+    /*right: calc( -100% + 1rem);*/
+    top: -1.675em;
+}
+
+div.wp-block-quotation-manager-row{
+    box-sizing: border-box;
+    width: 100%;
+}
+div.wp-block-quotation-manager-row div{
+    box-sizing: border-box;
+}
+div.wp-block-quotation-manager-row > div > div:nth-last-child(2), 
+div.wp-block-quotation-manager-row > div > div:nth-last-child(2) ~ * {
+    width: 50%;
+    max-width: 50%;
+    float:left;
+}
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(3), 
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(3) ~ * {
+    width: 33.3%;
+    max-width: 33.3%;
+    float:left;
+}
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(4), 
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(4) ~ * {
+    width: 25%;
+    max-width: 25%;
+    float:left;
+}
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(5), 
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(5) ~ * {
+    width: 20%;
+    max-width: 20%;
+    float:left;
+}
+div.wp-block-quotation-manager-row > div > div:nth-last-child(6), 
+div.wp-block-quotation-manager-row > div > div:nth-last-child(6) ~ * {
+    width: 16.6%;
+    max-width: 16.6%;
+    float:left;
+}
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(7), 
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(7) ~ * {
+    width: 14.2%;
+    max-width: 14.2%;
+    float:left;
+}
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(8), 
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(8) ~ * {
+    width: 12.5%;
+    max-width: 12.5%;
+    float:left;
+}
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(9), 
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(9) ~ * {
+    width: 11.1%;
+    max-width: 11.1%;
+    float:left;
+}
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(10), 
+div.wp-block-quotation-manager-row > div  > div:nth-last-child(10) ~ * {
+    width: 10%;
+    max-width: 10%;
+    float:left;
+}
+div.wp-block-quotation-manager-row span{
+    font-style: italic;
+}
+div.wp-block-quotation-manager-row span:not(.qmRemoveRowBtn):not(.qmAddNewRowBtn):after{
+    content: ' \2193';
+}
+.wp-block-quotation-manager-textinput input,
+.wp-block-quotation-manager-range input,
+.wp-block-quotation-manager-row input[type=text],
+.wp-block-quotation-manager-row input[type=number],
+.wp-block-quotation-manager-row input[type=email],
+.wp-block-quotation-manager-row input[type=tel],
+.wp-block-quotation-manager-dateinput input[type=date],
+.wp-block-quotation-manager-row input[type=range]{
+    height: 1.8em;
+    width: 100%;
+    max-width: 100%;
+}
+.wp-block-quotation-manager-fileinput{
+    overflow: hidden;
+}
+.wp-block-quotation-manager-select select{
+    width: 100%;
+    height:1.8em;
+}
+.wp-block-quotation-manager-form option{
+    height:1.8em;
+    padding-top: 4px;
+}
+.wp-block-quotation-manager-form select[multiple]
+{
+    height:1.8em;
+    vertical-align: baseline;
+}
+.wp-block-quotation-manager-form select[multiple]{
+    min-height: 1.8em;
+}
+.wp-block-quotation-manager-form select[multiple]:focus,
+.wp-block-quotation-manager-form select[multiple]:active{
+    height: auto;
+}
+.wp-block-quotation-manager-form form > div > input,
+.wp-block-quotation-manager-form form > div > div{
+    margin: 0.5rem 0;
+}
+.wp-block-quotation-manager-form form > div:last-child{
+    width:100%;
+    text-align: right;
+}
+.wp-block-quotation-manager-form input[type=submit]{
+    padding:0.7rem;
+    margin: 0.5rem 0rem;
+    letter-spacing: 0.05rem;
+    text-underline-position: under;
+    display: none;
+}
+.wp-block-quotation-manager-form input[type=submit].visible{
+    display:inline-block;
+}
+.azure form[name='qm_quotation_form'] input[type='radio'],
+.sparkling  form[name='qm_quotation_form'] input[type='radio'],
+.industrial form[name='qm_quotation_form'] input[type='radio'],
+.white-on-black form[name='qm_quotation_form'] input[type='radio']{
+    width: 1em;
+    height: 1em;
+    position: relative;
+    top:0.08em;
+}
+input[type="radio"]:checked {
+    display: inline-block;
+    padding: 0;
+    /* background-color only for content */form[name=qm_quotation_form]
+    background-clip: content-box;
+    border-radius: 50%;
+} 
+input[type=radio], input[type=checkbox]{
+    margin-right: 0.5rem;
+}
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    margin-bottom: 0.3em;
+    cursor: pointer;
+    font-size: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 0.35em;
+    top: 0.1em;
+    width: 0.5em;
+    height: 0.75em;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+  }

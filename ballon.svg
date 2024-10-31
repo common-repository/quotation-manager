@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="ballon.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 144.38705 119.2654"
+   height="119.2654mm"
+   width="144.38705mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-11"
+     inkscape:window-x="-11"
+     inkscape:window-height="2066"
+     inkscape:window-width="3840"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="220.84343"
+     inkscape:cx="337.14258"
+     inkscape:zoom="1.979899"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-16.631026,-86.934745)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Laag 1">
+    <path
+       sodipodi:nodetypes="ccccccsc"
+       transform="scale(0.26458333)"
+       d="M 335.24609,328.57227 C 184.73527,328.73598 62.858663,406.0778 62.857422,501.42773 63.118863,663.90182 243.43985,701.06501 369.21111,674.78201 c 0,0 127.78341,105.56041 168.69461,104.55025 0,0 -72.23829,-133.02673 -38.59961,-142.17321 91.24528,-29.54899 109.26666,-70.81202 109.26616,-135.73132 -10e-4,-95.46578 -122.16352,-172.85556 -272.85743,-172.85546 z"
+       style="fill:#e6e6e6;stroke-width:3.77953;stroke-linecap:round"
+       id="path842" />
+  </g>
+</svg>
